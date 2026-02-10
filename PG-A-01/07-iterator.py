@@ -1,0 +1,68 @@
+# iterators (yenileyici)
+
+liste = [1,2,3,4,5]
+
+iterator = iter(liste)
+
+print(next(iterator)) # 1
+print(next(iterator)) # 2
+print(next(iterator)) # 3
+print(next(iterator)) # 4
+print(next(iterator)) # 5
+# print(next(iterator))
+"""
+for i in liste:
+    print(i)
+"""
+
+liste = [1,2,3,4,5]
+iterator = iter(liste)
+
+"""
+1
+2
+3
+4
+5
+"""
+
+while True:
+    try:
+        element = next(iterator)
+        print(element)
+    except StopIteration:
+        break
+
+class MyNumbers:
+    def __init__(self, start, stop):
+        self.start = start
+        self.stop = stop
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.start <= self.stop:
+            x = self.start
+            self.start += 1
+            return x
+        else:
+            raise StopIteration
+
+list = MyNumbers(9,14)
+
+myiter = iter(list)
+
+# print(next(myiter))
+# print(next(myiter))
+
+while True:
+    try:
+        element = next(myiter)
+        print(element)
+    except StopIteration:
+        break
+
+
+# for x in list:
+#     print(x)

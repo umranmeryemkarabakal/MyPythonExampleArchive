@@ -1,0 +1,7 @@
+komut satırı ile dosya oluşturma
+echo $null >> first_project.py
+
+try-except finally bloğu doğru hata alınsın veya alınmasın çalışır.
+dosya yazma okuma işlemlerinde bu özelllik sık kullanılır
+
+

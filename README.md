@@ -7,15 +7,15 @@
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 An archive of Python practice sets (PG-A-01 … PG-A-07): language basics, higher-order functions, decorators, iterators and generators, standard-library modules, SQLite, unit tests, Selenium browser tests, JSON/Base64 handling and pandas.
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 Python çalışma setlerinin arşivi. Her `PG-A-xx` klasörü bir konu grubunu içerir.
 
-## 📚 İçerik
+## İçerik
 
 - `PG-A-01`: temel yapı, paketler, hata yakalama, yüksek mertebe fonksiyonlar, decorator, iterator, generator, `datetime`, `os`, `re`
 - `PG-A-02`: string, veri tipleri, operatörler, döngüler, debug, SQLite (`chinook.db`) ve 12 ödev
@@ -25,7 +25,7 @@ Python çalışma setlerinin arşivi. Her `PG-A-xx` klasörü bir konu grubunu i
 - `PG-A-06`: çözümlü alıştırmalar
 - `PG-A-07`: `random`, lambda, built-in fonksiyonlar, getter/setter, pandas
 
-## ⚙️ Kurulum ve çalıştırma
+## Kurulum ve çalıştırma
 
 ```bash
 python -m venv .venv
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 Selenium testleri için ChromeDriver'ı `webdriver-manager` otomatik indirir; depodaki eski `chromedriver.exe` kaldırıldı.
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 ```text
 MyPythonExampleArchive/
